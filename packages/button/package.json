@@ -1,5 +1,5 @@
 {
-  "name": "w-button",
+  "name": "@wzm-ui/button",
   "version": "0.0.4",
   "description": "> TODO: description",
   "author": "wangzhengmin <508795194@qq.com>",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "loadsh": "^0.0.4"
   },
-  "gitHead": "7aea6e3a099528d113a014c9237c9c88bb0cc917",
+  "gitHead": "3313b3e6d2721bd4495ceb059787449dfee39ef7",
   "dependencies": {
     "lodash": "^4.17.21"
   }

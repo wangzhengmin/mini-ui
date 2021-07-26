@@ -1,0 +1,4 @@
+42 error Error: Command failed with exit code 128: git tag v0.0.3 -m v0.0.3
+42 error fatal: tag 'v0.0.3' already exists
+42 error     at makeError (C:\Users\Administrator.SKY-20170729XNX\Desktop\review\npm-demo\node_modules\execa\lib\error.js:60:11)
+42 error     at handlePromise (C:\Users\Administrator.SKY-20170729XNX\Desktop\review\npm-demo\node_modules\execa\index.js:118:26)
