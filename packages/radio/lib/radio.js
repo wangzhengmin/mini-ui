@@ -3,5 +3,5 @@
 module.exports = radio;
 
 function radio() {
-    // TODO
+    console.log("radio")
 }
