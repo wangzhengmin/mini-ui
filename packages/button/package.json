@@ -19,5 +19,8 @@
   "devDependencies": {
     "loadsh": "^0.0.4"
   },
-  "gitHead": "2b99f73c2d45ba48dfdfa039106b8db79e7f3440"
+  "gitHead": "7aea6e3a099528d113a014c9237c9c88bb0cc917",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
