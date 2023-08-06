@@ -1,0 +1,10 @@
+{
+  "name": "@mini-ui/utils",
+  "description": "",
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "mini-ui",
+  "priviate": true,
+  "description": "",
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "build": "gulp --require @esbuild-kit/cjs-loader -f build/gulpfile.ts",
+    "build:theme": "pnpm -C packages/theme-chalk build",
+    "clean": "pnpm run clean:dist && pnpm run -r --parallel clean",
+    "clean:dist": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@esbuild-kit/cjs-loader": "^2.4.2",
+    "@types/node": "^20.4.1",
+    "gulp": "^4.0.2",
+    "rimraf": "^5.0.1",
+    "sass": "^1.63.6",
+    "typescript": "^5.1.6",
+    "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@mini-ui/components": "workspace:*",
+    "@mini-ui/theme-chalk": "workspace:*",
+    "@mini-ui/utils": "workspace:*"
+  }
+}

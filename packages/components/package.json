@@ -1,0 +1,11 @@
+{
+  "name": "@mini-ui/components",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

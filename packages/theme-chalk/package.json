@@ -1,0 +1,22 @@
+{
+  "name": "@mini-ui/theme-chalk",
+  "description": "",
+  "scripts": {
+    "build": "gulp --require @esbuild-kit/cjs-loader",
+    "clean": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/gulp": "^4.0.13",
+    "@types/gulp-autoprefixer": "^0.0.34",
+    "@types/gulp-clean-css": "^4.3.1",
+    "@types/gulp-sass": "^5.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0"
+  }
+}
